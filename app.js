@@ -10,6 +10,9 @@ app.use(bodyParser.json());
 
 // router.
 app.get('/movie',(req,res) => {
+    res.send("Welcome to my backend project...");
+})
+app.get('/movie',(req,res) => {
     res.send("movies from server...");
 })
 
